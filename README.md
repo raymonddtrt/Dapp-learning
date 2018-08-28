@@ -6,6 +6,7 @@ https://remix.ethereum.org
 
 Ropstan測試鏈取幣方式
 1.到錢包選擇"Ropstan test network"
+
 2.選擇"Deposit"
 3.選擇"GET ETHER"
 4.狂點直到出現"user is greedy"
