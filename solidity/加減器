@@ -1,0 +1,23 @@
+/*
+註解區
+*/
+
+pragma solidity ^0.4.21;
+
+contract Counter {
+    uint private count=0; //宣告私有變數
+    function getCount() public constant returns (uint) {  //return記得加s
+        return count;
+    }
+    function increment() public {
+        count+=1;
+    }
+    function decrement() public {
+        count-=1;
+    }
+}
+
+/*
+此合約會有漏洞，如果已經是0，然後又decrement
+會爆炸，變成2^256-1
+*/
