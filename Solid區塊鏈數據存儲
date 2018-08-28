@@ -1,0 +1,16 @@
+//首先宣告版本
+pragma solidity ^0.4.21;  // ”^”代表0.4.21之後的版本都相容
+//宣告合約，合約名為Storage
+contract Storage {	
+    
+    uint data;	//uint為非負整數
+	  //public表示全世界的人都可以使用，要加在函數名後面
+    //設值函數
+    function set(uint x) public {
+        data=x;
+    }
+    //取值函數
+    function get() public constant returns (uint){	//使用constant變成常數函數，使用此函數不需要Ether
+        return data;
+    }
+}
