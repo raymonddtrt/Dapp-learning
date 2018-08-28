@@ -11,3 +11,17 @@ Dapp部署
 https://etherscan.io/
 Ethercan還有分Kovan、Ropsten，在哪個測試環境部署就要去哪個網站看交易
 
+openZeppelin
+各種智能合約
+https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts
+import方式
+1.將URL去掉"https://"
+2.刪除"/blob/master"
+EX:
+https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/math/SafeMath.sol
+改成
+github.com/OpenZeppelin/openzeppelin-solidity/contracts/math/SafeMath.sol
+
+可參考
+https://github.com/raymonddtrt/Dapp-learning/blob/master/solidity/%E5%AE%89%E5%85%A8%E5%8A%A0%E6%B8%9B%E5%99%A8-%E5%A4%96%E9%83%A8%E6%A8%A1%E7%B5%84%E8%AA%BF%E7%94%A8
+
