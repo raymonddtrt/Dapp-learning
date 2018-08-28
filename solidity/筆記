@@ -1,0 +1,13 @@
+檔名必須為.sol
+
+Dapp部署
+如果Run底下的Account是空的
+代表沒有和錢包做連結
+解決方法:
+點開Metamask，登入，再重整瀏覽器
+如果合約部署完成，右側會出現與合約互動的介面
+
+可前往Ethercan，貼上錢包地址，來找到你的合約
+https://etherscan.io/
+Ethercan還有分Kovan、Ropsten，在哪個測試環境部署就要去哪個網站看交易
+
